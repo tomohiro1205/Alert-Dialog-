@@ -45,6 +45,8 @@ struct ContentView: View {
             Button("キャンセル", role: .cancel) {
 
             }
+        } message: {
+            Text("ここにメッセージ")
         }
     }
 }
